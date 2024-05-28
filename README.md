@@ -35,11 +35,13 @@ mvn test
 Step 4:
 Run the following code to start the code
 ```
-mvn run
+mvn spring-boot:run
 ```
 
-The app is on the URL: "http://localhost:8080"
-"POST" image on: "http://localhost:8080/api/watermark"
+The app will be available at: http://localhost:8080
+You can "POST" an image to: http://localhost:8080/api/watermark
+
+PS: on this code, you can easily change the position, text and color of the watermark as you wish;
 
 ## 📦Technologies
 
@@ -47,7 +49,7 @@ The app is on the URL: "http://localhost:8080"
 * [Java](https://www.java.com/)
 
 **Framework:**
-* [JavaSpring](https://spring.io/)
+* [Spring Boot](https://spring.io/)
 
 ### 👷Contact
 
@@ -60,7 +62,7 @@ The app is on the URL: "http://localhost:8080"
 
 ### 📄License
 
-This project is under the MIT license - check details [LICENSE]()
+This project is under the MIT license - check details [LICENSE]
 
 ### 💡Acknowledgments
 
