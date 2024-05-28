@@ -75,3 +75,7 @@ This project is under the MIT license - check details [LICENSE]
 ### 💡Acknowledgments
 
 For support, send an email to: mjsa.sanches25@gmail.com
+
+### attachment: Showing the success on status 200 and the new image with the watermark
+
+- https://imgur.com/a/BPrC6Hd
