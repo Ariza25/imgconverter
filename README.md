@@ -38,8 +38,16 @@ Run the following code to start the code
 mvn spring-boot:run
 ```
 
-The app will be available at: http://localhost:8080
-You can "POST" an image to: http://localhost:8080/api/watermark
+- The app will be available at: http://localhost:8080;
+
+- You can "POST" an image to: http://localhost:8080/api/watermark;
+- To test the route (Postman, Insomnia...), follow the steps:
+  * Got to "body" and choose the option "raw". Choose the format JSON.
+  * send the informations: "image", "text" and "position"
+     For example:
+    "image": base64;
+    "text": name of image;
+    "position": top-right, top-left, bottom-right, bottom-left or center;
 
 PS: on this code, you can easily change the position, text and color of the watermark as you wish;
 
